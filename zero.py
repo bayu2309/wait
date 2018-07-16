@@ -35,8 +35,8 @@ wiki_settings = {}
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('CQcg1+DqDmLr8bouXAsuoSm5vuwB2DzDXpWc/KGUlxzhq9MSWbk9gRFbanmFTbv9wwW8psPOrrg+mHtOkp1l+CTlqVeoUWwWfo54lNh16CcqH7wmQQHT+KnkNataGXez6nNY8YlahgO7piAAKqfjLgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('c116ac1004040f97a62aa9c3503d52d9')
+line_bot_api = LineBotApi('tjvXP9BP6AlpamDUcH9HgNxkHg4/0LxJLgGx10VlKbk22DppPeGSuA7z4Jk9Hrz0TplsMRcO+ZAIWdDJddFjBkcjUm8puLO5rBLFrrNeHfm4W9hAghAhh8FD6dmgTNvppqqze25/SKuuksgt+L+wLAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('b219db0ce83424b915785ee319b1736c')
 
 # function for create tmp dir for download content
 def make_static_tmp_dir():
